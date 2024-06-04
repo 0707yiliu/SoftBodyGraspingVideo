@@ -59,7 +59,7 @@
               <span class="author-block">
                 <a href="https://0707yiliu.github.io/" target="_blank">Yi Liu</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="https://research.ugent.be/web/person/remko-proesmans-0/en" target="_blank">Remko Proesmans</a><sup>*</sup>,</span>
+                  <a href="https://research.ugent.be/web/person/remko-proesmans-0/en" target="_blank">Remko Proesmans</a>,</span>
                 <span class="author-block">
                   <a href="https://research.ugent.be/web/person/andreas-verleysen-0/en" target="_blank">Andreas Verleysen</a>,</span>
                   <span class="author-block">
@@ -154,51 +154,70 @@
         <div class="content has-text-justified">
           <p>
             This paper presents a tactile-based grasping scheme
-with the universal two-finger industrial gripper Schunk equipped
-with the low-cost magnetic tactile sensor. The tactile sensor pro-
-vides three-dimensional information during grasping. Initially, we
-utilize the low-cost, coupled tactile sensor for slip detection during
-the lifting stage. Furthermore, we propose a force approximation
-method that uses dynamic force increments to find the object’s
-critical value of slip. The robot can grasp objects with minimal
-force in this way. To demonstrate the proposed slip detection
-method can be reasonably applied in combination with the
-coupled tactile sensor, multiple detection metrics are compared
-and demonstrate the effectiveness of the proposed slip detection
-method. Finally, 20 everyday objects, a total of 28 items were
-tested, demonstrating the superiority of the proposed dynamic
-force approximation.
+            with the universal two-finger industrial gripper Schunk equipped
+            with the low-cost magnetic tactile sensor. The tactile sensor pro-
+            vides three-dimensional information during grasping. Initially, we
+            utilize the low-cost, coupled tactile sensor for slip detection during
+            the lifting stage. Furthermore, we propose a force approximation
+            method that uses dynamic force increments to find the object’s
+            critical value of slip. The robot can grasp objects with minimal
+            force in this way. To demonstrate the proposed slip detection
+            method can be reasonably applied in combination with the
+            coupled tactile sensor, multiple detection metrics are compared
+            and demonstrate the effectiveness of the proposed slip detection
+            method. Finally, 20 everyday objects, a total of 28 items were
+            tested, demonstrating the superiority of the proposed dynamic
+            force approximation.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-  <!-- <section class="section hero is-light">
+  <section class="section hero is-light">
   <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
+    <div class="columns is-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
-        <div class="content has-text-centered">
+
+      <div class="column">
+        <b>G1</b><br>
+        
           <video id="replay-video"
                  controls
                  muted
                  preload
                  playsinline
-                 width="120%">
-            <source src="static/videos/full.mp4"
+                 width="30%">
+            <source src="static/videos/banana_G1.mp4"
                     type="video/mp4">
-        </div>
+
+      </div>
+
+      <div class="column">
+        <b>G2</b><br>
+       
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="30%">
+            <source src="static/videos/banana_G2.mp4"
+                    type="video/mp4">
+
+      </div>
+
       </div>
     </div>
   </div>
-</section> -->
+</section>
 <!-- End video abstract -->
 
 <section class="section">
   <div class="container is-max-desktop">
 
-    <!-- <div class="columns is-centered">
+    <div class="columns is-centered">
 
       <div class="column">
         <div class="content">
@@ -229,7 +248,23 @@ force approximation.
         </div>
       </div>
 
-    </div> -->
+      <div class="column">
+        <h2 class="title is-3">Dynamic Safety Lock with RL</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              Network structure of robot insertion models. 
+              The entire network is divided into three parts, the environment, the agent network, and the dynamic safety lock (DSL).
+              DSL dynamically compensates the movement of the end of the robot, 
+              and the degree of compensation depends on the magnitude of the force feedback and the magnitude of the gain.
+            </p>
+            <img src="static/images/network.jpg" alt="MY ALT TEXT"/>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
     <!-- Trainning. -->
     <!-- <div class="hero-body">
       <div class="container">

@@ -89,6 +89,11 @@ body {
   /*color: #4286f4;*/
 }
 
+/* .container {
+  column-count: 4;
+
+} */
+
 .publication-video {
     position: relative;
     width: 100%;
